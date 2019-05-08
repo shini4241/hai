@@ -1,0 +1,6 @@
+create table employee_history(
+emp_hist_id number(8) not null,
+emp_hist_desc varchar(50) not null,
+emp_hist_date date default sysdate,
+emp_id number(8) not null references employee(emp_id),
+primary key(emp_id,emp_hist_id))

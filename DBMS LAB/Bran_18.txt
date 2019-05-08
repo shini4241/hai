@@ -1,0 +1,1 @@
+ALTER TABLE Branch ADD CONSTRAINT PK_Bran CHECK(Bran_Total_Emp >0)

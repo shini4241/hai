@@ -1,0 +1,2 @@
+INSERT INTO organization (orgn_Id,orgn_Name, orgn_regn_No, orgn_ceo, orgn_business, orgn_address, orgn_contact,orgn_phone_no, orgn_start_date)  
+values(5, 'State Bank of India', 'FIN-1962-2300','Arundhati Mukherjee','financial services', '4th Floor, East Tower, Sood Tower, 25,Barakhamba Road, New Delhi 110 001',NULL, '91-11-30410900',NULL);

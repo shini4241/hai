@@ -1,0 +1,11 @@
+CREATE TABLE organization(
+orgn_id NUMBER NOT NULL PRIMARY KEY,
+orgn_name varchar(50)not null,
+orgn_ceo varchar(25)null,
+orgn_business varchar(25) not null check(orgn_business in ('manufacturing','software','financial services')),
+orgn_contact varchar(25)null,
+orgn_start_date varchar(50) not null,
+orgn_regn_no varchar(50) not null,
+orgn_address varchar(50) not null,
+orgn_phone_no varchar(15)null)
+/

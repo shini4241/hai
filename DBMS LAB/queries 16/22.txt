@@ -1,0 +1,1 @@
+select e.emp_fname,d.divn_name from division d,branch b,employee e where d.divn_id=b.divn_id and b.branch_id=e.branch_id order by e.emp_fname

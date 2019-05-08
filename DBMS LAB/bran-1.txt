@@ -1,0 +1,1 @@
+alter table Division add constraint pk_divn primary key(divn_id)

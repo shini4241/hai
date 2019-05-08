@@ -1,0 +1,1 @@
+select emp_fname from employee where emp_join_date='01-jan-1998';

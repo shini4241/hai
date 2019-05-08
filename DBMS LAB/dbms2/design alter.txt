@@ -1,0 +1,3 @@
+ALTER TABLE Designation ADD (Desn_Id NUMBER, Desn_Low_Salary NUMBER, 
+Desn_High_Salary NUMBER,
+Desn_Grade CHAR(5) )

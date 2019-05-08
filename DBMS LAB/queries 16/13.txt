@@ -1,0 +1,1 @@
+select emp_fname from employee where emp_fname like 'A%' or emp_fname like 'E%' or emp_fname like 'I%' or emp_fname like 'O%' or emp_fname like 'U%';

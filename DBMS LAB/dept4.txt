@@ -1,0 +1,1 @@
+alter table employee add (dept_id number not null);

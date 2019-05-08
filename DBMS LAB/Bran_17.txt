@@ -1,0 +1,2 @@
+ALTER TABLE Branch
+ADD CONSTRAINT fk_Bran FOREIGN KEY(Divn_Id) REFERENCES Division(Divn_Id)

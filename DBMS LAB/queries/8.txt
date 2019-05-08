@@ -1,0 +1,1 @@
+select   branch_name from organization o,division d,branch b where o.orgn_id=d.orgn_id and d.divn_id=b.divn_id order by branch_name asc;

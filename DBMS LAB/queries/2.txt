@@ -1,0 +1,1 @@
+select orgn_name from organization where orgn_name like 'B%'or orgn_name like 'S%'

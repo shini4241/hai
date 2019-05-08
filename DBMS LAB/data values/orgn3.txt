@@ -1,0 +1,4 @@
+INSERT INTO organization (orgn_Id,orgn_Name, orgn_regn_No, orgn_ceo, orgn_business, orgn_address, orgn_contact,orgn_phone_no, orgn_start_date)  
+values(3, 'Oracle Corporation', 'IT-1980-2389','Larry Ellison','software',
+'Prestige Atlanta, No. 10, 7th Main, Industrial Layout, III Block, Ward No. 68,Koramangala, Bangalore - 560034',NULL,
+'91-80-41803500', NULL);

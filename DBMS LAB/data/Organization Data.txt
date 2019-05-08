@@ -1,0 +1,24 @@
+/*		The following script is used for inserting data into the Organization table			*/
+/*				Columns 							*/		/*----------------------------									----------------*/
+/* 	Orgn_Id, 	Orgn_Name, Orgn_Regn_No, Orgn_CEO, Orgn_Business, Orgn_Address, Orgn_Contact 	*/
+/*	Orgn_Phone_No, Orgn_Start_Date							*/
+
+
+INSERT	INTO	Organization	VALUES	(1, 'Delta Corporation', 'MFG-2005-1786','Ashwin Naik','Manufacturing', 
+'W-19, Greater Kailash Part II, New Delhi - 110048',NULL,'91-11-2922-3882',NULL );
+
+INSERT	INTO	Organization	VALUES	(2, 'Microsoft Corporation', 'IT-1980-3450','Bill Gates','Software',
+' # 40, 2nd Cross, 25th Main, 2nd Stage,BTM Layout, Bangalore – 560 076',NULL,'91-80-26784122',NULL);
+
+INSERT	INTO	Organization	VALUES	(3, 'Oracle Corporation', 'IT-1980-2389','Larry Ellison','Software',
+'Prestige Atlanta, No. 10, 7th Main, Industrial Layout, III Block, Ward No. 68,Koramangala, Bangalore - 560034',NULL,
+'91-80-41803500', NULL);
+
+INSERT	INTO	Organization	VALUES	(4, 'Honda Motor Company', 'MFG-2001-1234','Rahul Bajaj','Manufacturing',
+'Global Business Park, Tower-B, 5th Floor, Mehrauli Gurgaon Road, Gurgaon - 122 002','','91-124-40622121','');
+
+INSERT	INTO	Organization	VALUES	(5, 'State Bank of India', 'FIN-1962-2300','Arundhati Mukherjee','Financial Services', '4th Floor, East Tower, Sood Tower, 25,Barakhamba Road, New Delhi 110 001',NULL, '91-11-30410900',NULL);
+
+
+
+

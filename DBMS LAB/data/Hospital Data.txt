@@ -1,0 +1,45 @@
+/*			Insert the following data into the Doctor table					*/
+
+INSERT	INTO	Doctor		VALUES		(100, 'Dr. Ashok Kumar', 'Ambalathara Building, Palace Road', 'Ernakulam');
+INSERT	INTO	Doctor		VALUES		(101, 'Dr. Arun Mathew', 'Doctor Colony, Paikadas Lane', 'Trivandrum');
+INSERT	INTO	Doctor		VALUES		(102, 'Dr. Alok Chattergee', 'Excel Building, Sastri Road', 'Kozhikode');
+INSERT	INTO	Doctor		VALUES		(103, 'Dr. Aswathy Das', 'AVG Building, Baker Junction', 'Kottayam');
+INSERT	INTO	Doctor		VALUES		(104, 'Dr. Ashwin R', 'Cheeroth Towers, Highway Road', 'Ernakulam');
+INSERT	INTO	Doctor		VALUES		(105, 'Dr. Anusha Khanna', 'Magic Complex, MG Road', 'Trivandrum');		
+INSERT	INTO	Doctor		VALUES		(106, 'Dr. Arya Aravind', 'West Skyline, Star Junction', 'Thrissur');
+INSERT	INTO	Doctor		VALUES		(107, 'Dr. Aparna Nair', 'High Court Road', 'Ernakulam');
+INSERT	INTO	Doctor		VALUES		(108, 'Dr. Amal John', 'East West Constructions, TB Road', 'Kottayam');
+INSERT	INTO	Doctor		VALUES		(109, 'Dr. Anu Thomas', 'Pazhavangady, Near Govt. High Scholl', 'Allapuzha');
+INSERT	INTO	Doctor		VALUES		(110, 'Dr. Joshi', 'Petro Towers, Temple Road', 'Ernakulam');
+
+
+/*			Insert the following data into the Hospital  table					*/
+
+INSERT	INTO	Hospital		VALUES		(1000, 'Pushpagiri Institute of Medical Science', 'MC Road', 'Thiruvalla');
+INSERT	INTO	Hospital		VALUES		(1001, 'Malabar Institute o Medical Science', 'Main Road', 'Calicut');		
+INSERT	INTO	Hospital		VALUES		(1002, 'Holy Cross Hospital', 'Railway Station Road', 'Kollam');
+INSERT	INTO	Hospital		VALUES		(1003, 'Regional Cancer Center', 'Palace Road', 'Trivandrum');
+INSERT	INTO	Hospital		VALUES		(1004, 'Medical College Hospital', 'Ulloor', 'Trivandrum');
+INSERT	INTO	Hospital		VALUES		(1005, 'Cosmopolitan Hospital', 'Baker Junction', 'Trivandrum');
+INSERT	INTO	Hospital		VALUES		(1006, 'Sunrise Hospital and Research Center', 'Airport Seaport Road', 'Ernakulam');
+INSERT	INTO	Hospital		VALUES		(1007, 'Medical Center', 'Bypass Road', 'Ernakulam');
+INSERT	INTO	Hospital		VALUES		(1008, 'Matha Hospital', 'Thellakom', 'Kottayam');
+INSERT	INTO	Hospital		VALUES		(1009, 'Baby Memorial Hospital', 'NH Road', 'Calicut');
+INSERT	INTO	Hospital		VALUES		(1010, 'PVS Hospital', 'Kaloor', 'Ernakulam'); 		
+
+/*			Insert the following data into the Doctor_Visit  table					*/			
+
+INSERT	INTO	Doctor_Visit	VALUES		(100, 1000, TO_DATE('01-JAN-2011', 'DD-MON-YYYY'));
+INSERT	INTO	Doctor_Visit	VALUES		(100, 1006, TO_DATE('26-NOV-2008', 'DD-MON-YYYY'));
+INSERT	INTO	Doctor_Visit	VALUES		(100, 1001, TO_DATE('12-JAN-2011', 'DD-MON-YYYY'));
+INSERT	INTO	Doctor_Visit	VALUES		(101, 1000, TO_DATE('25-JAN-2011', 'DD-MON-YYYY'));
+INSERT	INTO	Doctor_Visit	VALUES		(102, 1005, TO_DATE('30-JAN-2011', 'DD-MON-YYYY'));
+INSERT	INTO	Doctor_Visit	VALUES		(103, 1008, TO_DATE('16-MAR-2008', 'DD-MON-YYYY'));
+INSERT	INTO	Doctor_Visit	VALUES		(104, 1007, TO_DATE('14-AUG-2009', 'DD-MON-YYYY'));
+INSERT	INTO	Doctor_Visit	VALUES		(105, 1009, TO_DATE('15-JUL-2008', 'DD-MON-YYYY'));
+INSERT	INTO	Doctor_Visit	VALUES		(110, 1006, TO_DATE('26-NOV-2008', 'DD-MON-YYYY'));
+INSERT	INTO	Doctor_Visit	VALUES		(110, 1006, TO_DATE('26-OCT-2009', 'DD-MON-YYYY'));
+INSERT	INTO	Doctor_Visit	VALUES		(110, 1006, TO_DATE('26-SEP-2009', 'DD-MON-YYYY'));
+INSERT	INTO	Doctor_Visit	VALUES		(105, 1008, TO_DATE('23-MAR-2004', 'DD-MON-YYYY'));
+INSERT	INTO	Doctor_Visit	VALUES		(106, 1008, TO_DATE('23-MAR-2004', 'DD-MON-YYYY'));
+INSERT	INTO	Doctor_Visit	VALUES		(107, 1008, TO_DATE('23-MAR-2004', 'DD-MON-YYYY'));

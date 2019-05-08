@@ -1,0 +1,1 @@
+select count(*) as "total emp" from branch b,employee e where b.branch_id=e.branch_id and branch_name='Dehradun';

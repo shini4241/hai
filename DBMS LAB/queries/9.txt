@@ -1,0 +1,1 @@
+select emp_fname from employee e,branch b where e.branch_id=b.branch_id

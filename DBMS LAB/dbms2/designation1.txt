@@ -1,0 +1,2 @@
+CREATE TABLE Designation AS SELECT DISTINCT Emp_Job
+AS Desn_Name FROM Employee

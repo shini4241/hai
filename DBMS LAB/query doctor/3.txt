@@ -1,0 +1,1 @@
+select count(*) from doctor d,visit v,hospital h where d.doct_id=v.doct_id and v.hosp_id=h.hosp_id and hosp_name='Sunrise Hospital and Research Center' and visit_date='26-Nov-08';

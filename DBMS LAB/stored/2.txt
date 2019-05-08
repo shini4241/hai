@@ -1,0 +1,21 @@
+declare
+e_emp_id number:=100;
+e_emp_fname varchar(30):='ammu';
+ e_emp_lname varchar(30):='S';
+
+cursor emp_cursor is select emp_id,emp_fname,emp_lname
+ from employee
+ where dept_id=10
+order by emp_id;
+
+begin
+open emp_cursor;
+
+loop
+fetch emp_cursor into e_emp_id,e_emp_fname,e_emp_lname;
+exit when emp_cursor%NOTFOUND;
+DBMS_OUTPUT.PUT_LINE('employee details are '||e_emp_id||'  '||e_emp_fname||'  '||e_emp_lname);
+end loop;
+close emp_cursor;
+end;
+/

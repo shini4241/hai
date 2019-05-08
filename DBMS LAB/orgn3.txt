@@ -1,0 +1,1 @@
+ALTER TABLE organization ADD(orgn_web_site varchar(50)null)

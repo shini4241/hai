@@ -1,0 +1,1 @@
+alter table employee add constraint emp check(emp_dept='finance'or emp_dept='human resources' or emp_dept='purchase' or emp_dept='logistics' or emp_dept='sales and marketing' or emp_dept='management' or emp_dept='operation')

@@ -1,0 +1,1 @@
+select b.branch_name,count(*) as "total emp" from branch b,employee e where b.branch_id=e.branch_id group by b.branch_name;

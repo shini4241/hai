@@ -1,0 +1,13 @@
+declare
+e_emp_id number=100;
+e_emp_fname varchar(30)='ammu';
+ e_emp_lname varchar(30)='S';
+e_emp_salary numberf(20)=20000;
+
+begin
+select emp_id,emp_fname,emp_lname,emp_salary 
+into e_emp_id,e_emp_fname,e_emp_lname,e_emp_salary
+ from employee
+ where emp_id=1002;
+DBMS_OUTPUT.PUT_LINE('employee details are '||e_emp_id||'  '||e_emp_fname||'  '||e_emp_lname||'  '||e_emp_salary);
+end;

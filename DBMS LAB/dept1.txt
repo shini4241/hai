@@ -1,0 +1,2 @@
+alter table department
+add (orgn_id number(8) not null)

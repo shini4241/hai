@@ -1,0 +1,1 @@
+select d.divn_name,count(*) as "total_emp" from division d,branch b,employee e where e.branch_id=b.branch_id and b.divn_id=d.divn_id group by d.divn_name;

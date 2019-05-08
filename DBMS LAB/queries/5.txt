@@ -1,0 +1,1 @@
+select divn_name from organization,division where organization.orgn_id=division.orgn_id and orgn_contact is null

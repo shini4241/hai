@@ -1,0 +1,11 @@
+CREATE TABLE employee(
+emp_id NUMBER(8)  NOT NULL PRIMARY KEY,
+emp_fname VARCHAR(25) NOT NULL,
+emp_lname VARCHAR(25) NOT NULL,
+emp_salary NUMBER(10,2) NOT NULL,
+emp_mgr_id NUMBER(8) NULL,
+emp_dept VARCHAR(15) NOT NULL,
+emp_job VARCHAR(15) NOT NULL,
+emp_join_date DATE NOT NULL,
+emp_gender CHAR(1) NOT NULL,
+branch_id NUMBER(8) REFERENCES branch(branch_id))

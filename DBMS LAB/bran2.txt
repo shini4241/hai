@@ -1,0 +1,1 @@
+alter table Division add constraint fk_divn foreign key(orgn_id)references organization (orgn_id)

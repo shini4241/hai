@@ -1,0 +1,6 @@
+create table department
+(dept_id number(8) not null primary key,
+dept_name varchar(50) not null,
+dept_head varchar(30) null,
+dept_extn_no varchar(8) null,
+dept_location varchar(50)null)

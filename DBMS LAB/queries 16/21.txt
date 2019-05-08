@@ -1,0 +1,1 @@
+select emp_fname,branch_name from branch b,employee e where b.branch_id=e.branch_id and e.emp_fname like 'A%' and b.branch_name like 'B%';

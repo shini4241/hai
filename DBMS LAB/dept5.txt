@@ -1,0 +1,2 @@
+alter table employee add constraint 
+fk_emp foreign key(dept_id) references department(dept_id)

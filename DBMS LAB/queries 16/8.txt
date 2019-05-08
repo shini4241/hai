@@ -1,0 +1,1 @@
+select e.emp_fname from organization o,division d,branch b,employee e where o.orgn_id=d.orgn_id and d.divn_id=b.divn_id and b.branch_id=e.branch_id and o.orgn_name ='Microsoft Corporation';

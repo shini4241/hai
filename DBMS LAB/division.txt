@@ -1,0 +1,8 @@
+CREATE TABLE Division(
+divn_id number not null primary key,
+divn_name varchar(50) not null,
+divn_head varchar(50) not null,
+divn_location varchar(25) not null,
+divn_contact varchar(25) null,
+divn_phone_no varchar(15) null,
+orgn_id number not null references organization(orgn_id))

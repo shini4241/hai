@@ -1,0 +1,3 @@
+INSERT INTO organization (orgn_Id,orgn_Name, orgn_regn_No, orgn_ceo, orgn_business, orgn_address, orgn_contact,orgn_phone_no, orgn_start_date)  
+values(2, 'Microsoft Corporation', 'IT-1980-3450','Bill Gates','software',
+' # 40, 2nd Cross, 25th Main, 2nd Stage,BTM Layout, Bangalore – 560 076',NULL,'91-80-26784122',NULL);

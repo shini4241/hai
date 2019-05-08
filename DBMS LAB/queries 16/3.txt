@@ -1,0 +1,1 @@
+select divn_name,divn_id from division where mod(divn_id,2)=1

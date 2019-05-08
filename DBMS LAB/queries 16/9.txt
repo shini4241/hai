@@ -1,0 +1,1 @@
+update employee set emp_join_date='29-dec-2006' where emp_id=1000;

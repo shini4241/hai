@@ -1,0 +1,1 @@
+alter table branch add constraint pk_bran check(branch_total_emp>0)

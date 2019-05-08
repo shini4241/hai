@@ -1,0 +1,3 @@
+ALTER TABLE Division
+ADD CONSTRAINT divn
+UNIQUE (divn_Phone_No)

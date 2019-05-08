@@ -1,0 +1,1 @@
+select d.divn_name,b.branch_name,count(emp_id) from division d,branch b,employee e where d.divn_id= b.divn_id and b.branch_id=e.branch_id group by d.divn_name,b.branch_name;

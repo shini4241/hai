@@ -1,0 +1,1 @@
+SELECT distinct divn_name from organization o,division d where o.orgn_id= d.orgn_id and orgn_business='manufacturing';

@@ -1,0 +1,1 @@
+select divn_name,emp_fname from branch b,division d,employee e where b.divn_id=d.divn_id and b.branch_id=e.branch_id and emp_fname in('AJITH','ANJU');

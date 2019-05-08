@@ -1,0 +1,2 @@
+alter table employee modify(emp_fname varchar(60))
+alter table employee modify(emp_lname varchar(60))

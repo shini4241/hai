@@ -1,0 +1,1 @@
+select hosp_name from doctor d,visit v,hospital h where d.doct_id=v.doct_id and v.hosp_id=h.hosp_id and doct_name='Dr. Joshi';

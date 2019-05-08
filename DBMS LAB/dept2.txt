@@ -1,0 +1,2 @@
+alter table department
+add constraints pk_dept foreign key(orgn_id) references organization(orgn_id)

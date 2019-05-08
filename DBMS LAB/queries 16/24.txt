@@ -1,0 +1,7 @@
+SELECT d.divn_name,
+case b.branch_id
+when 111 then 'PUNE'
+when 173 then 'salem'
+else null
+end from division d,branch b
+where d.divn_id=b.divn_id and b.branch_id in(173,111);

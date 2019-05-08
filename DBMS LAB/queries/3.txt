@@ -1,0 +1,1 @@
+SELECT orgn_name from organization where TO_CHAR(orgn_start_date,'yyyy')='2010';

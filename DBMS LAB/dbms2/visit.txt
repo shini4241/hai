@@ -1,0 +1,5 @@
+create table visit(
+doct_id number(8) not null,
+hosp_id varchar(50) not null,
+visit_date date default sysdate,
+primary key(doct_id,hosp_id))

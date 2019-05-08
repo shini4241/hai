@@ -1,0 +1,6 @@
+create table doctor(
+doct_id number(8) not null,
+doct_name varchar(50) not null,
+doct_address varchar(50) null,
+doct_city varchar(50) null,
+primary key(doct_id))

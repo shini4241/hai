@@ -1,0 +1,3 @@
+alter table employee
+add constraint pk_emp
+check(emp_salary > 0)
